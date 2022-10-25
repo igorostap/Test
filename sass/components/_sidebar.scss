@@ -1,0 +1,402 @@
+@media screen and (max-width: 767px) {
+  .container {
+    display: block;
+  }
+  .sidebar {
+    max-width: 306px;
+    .logo {
+      display: inline-flex;
+      margin-bottom: 65px;
+      margin-left: 31px;
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 26px;
+      line-height: 39px;
+      letter-spacing: 0.01em;
+
+      align-items: center;
+      color: #000000;
+    }
+    .logo_second {
+      display: flex;
+      width: 18px;
+      height: 15px;
+      align-items: flex-end;
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 10px;
+      line-height: 15px;
+      /* identical to box height */
+
+      letter-spacing: -0.01em;
+      color: #838383;
+      margin-top: 10px;
+    }
+    .logo_icon {
+      display: inline-block;
+      margin-right: 12px;
+    }
+    .sidebar_nav {
+      display: flex;
+      margin-left: 28px;
+    }
+    .sidebar_nav-button {
+      display: flex;
+      max-width: 250px;
+      max-height: 46px;
+      padding: 0%;
+      font-size: 14px;
+      line-height: 21px;
+      text-align: center;
+      align-items: center;
+      border-radius: 8px;
+      letter-spacing: -0.01em;
+      color: #9197b3;
+      margin-right: 28px;
+    }
+    .sidebar_nav-button:hover {
+      background-color: #5932ea;
+      color: #fff;
+    }
+    .sidebar_icon {
+      margin-right: 16px;
+      margin-left: 13px;
+    }
+    .sidebar_icon-vector {
+      margin-right: 19px;
+      margin-left: auto;
+    }
+    .sidebar_user {
+      display: flex;
+
+      margin-top: 30px;
+      margin-left: 28px;
+    }
+    .sidebar_user-img {
+      max-width: 42px;
+      max-height: 42px;
+    }
+    .sidebar_user-name {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 21px;
+      letter-spacing: 0.01em;
+      margin: 0%;
+      color: #000000;
+    }
+    .sidebar_user-profession {
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 18px;
+      margin: 0%;
+      letter-spacing: 0.01em;
+
+      color: #757575;
+    }
+    .user-profile_container {
+      margin-left: 12px;
+    }
+  }
+  .sidebar {
+    max-width: 306px;
+  }
+  .logo {
+    display: inline-flex;
+    margin-bottom: 65px;
+    margin-left: 31px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 39px;
+    letter-spacing: 0.01em;
+
+    align-items: center;
+    color: #000000;
+  }
+  .logo_second {
+    display: flex;
+    width: 18px;
+    height: 15px;
+    align-items: flex-end;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 15px;
+    /* identical to box height */
+
+    letter-spacing: -0.01em;
+    color: #838383;
+    margin-top: 10px;
+  }
+  .logo_icon {
+    display: inline-block;
+    margin-right: 12px;
+  }
+  .sidebar_nav {
+    display: flex;
+    margin-left: 28px;
+  }
+  .sidebar_nav-button {
+    display: flex;
+    max-width: 250px;
+    height: 46px;
+    padding: 0%;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    align-items: center;
+    border-radius: 8px;
+    letter-spacing: -0.01em;
+    color: #9197b3;
+    margin-right: 28px;
+  }
+  .sidebar_nav-button:hover {
+    background-color: #5932ea;
+    color: #fff;
+  }
+  .sidebar_icon {
+    margin-right: 16px;
+    margin-left: 13px;
+  }
+  .sidebar_icon-vector {
+    margin-right: 19px;
+    margin-left: auto;
+  }
+  .sidebar_user {
+    display: flex;
+
+    margin-top: 590px;
+    margin-left: 28px;
+  }
+  .sidebar_user-img {
+    width: 42px;
+    height: 42px;
+  }
+  .sidebar_user-name {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.01em;
+    margin: 0%;
+    color: #000000;
+  }
+  .sidebar_user-profession {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    margin: 0%;
+    letter-spacing: 0.01em;
+
+    color: #757575;
+  }
+  .user-profile_container {
+    margin-left: 12px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    display: flex;
+    margin-top: 39px;
+    height: 100vw;
+  }
+  .logo {
+    display: inline-flex;
+    margin-bottom: 65px;
+    margin-left: 31px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 39px;
+    letter-spacing: 0.01em;
+
+    align-items: center;
+    color: #000000;
+  }
+  .logo_second {
+    display: flex;
+    width: 18px;
+    height: 15px;
+    align-items: flex-end;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 15px;
+    /* identical to box height */
+
+    letter-spacing: -0.01em;
+    color: #838383;
+    margin-top: 10px;
+  }
+  .logo_icon {
+    display: inline-block;
+    margin-right: 12px;
+  }
+  .sidebar_nav {
+    display: flex;
+    margin-left: 28px;
+  }
+  .sidebar_nav-button {
+    display: flex;
+    width: 250px;
+    height: 46px;
+    padding: 0%;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    align-items: center;
+    border-radius: 8px;
+    letter-spacing: -0.01em;
+    color: #9197b3;
+    margin-right: 28px;
+  }
+  .sidebar_nav-button:hover {
+    background-color: #5932ea;
+    color: #fff;
+  }
+  .sidebar_icon {
+    margin-right: 16px;
+    margin-left: 13px;
+  }
+  .sidebar_icon-vector {
+    margin-right: 19px;
+    margin-left: auto;
+  }
+  .sidebar_user {
+    display: flex;
+
+    margin-top: 590px;
+    margin-left: 28px;
+  }
+  .sidebar_user-img {
+    width: 42px;
+    height: 42px;
+  }
+  .sidebar_user-name {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.01em;
+    margin: 0%;
+    color: #000000;
+  }
+  .sidebar_user-profession {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    margin: 0%;
+    letter-spacing: 0.01em;
+
+    color: #757575;
+  }
+  .user-profile_container {
+    margin-left: 12px;
+  }
+
+  .sidebar {
+    max-width: 306px;
+  }
+  .logo {
+    display: inline-flex;
+    margin-bottom: 65px;
+    margin-left: 31px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 39px;
+    letter-spacing: 0.01em;
+
+    align-items: center;
+    color: #000000;
+  }
+  .logo_second {
+    display: flex;
+    width: 18px;
+    height: 15px;
+    align-items: flex-end;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 15px;
+    /* identical to box height */
+
+    letter-spacing: -0.01em;
+    color: #838383;
+    margin-top: 10px;
+  }
+  .logo_icon {
+    display: inline-block;
+    margin-right: 12px;
+  }
+  .sidebar_nav {
+    display: flex;
+    margin-left: 28px;
+  }
+  .sidebar_nav-button {
+    display: flex;
+    width: 250px;
+    height: 46px;
+    padding: 0%;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    align-items: center;
+    border-radius: 8px;
+    letter-spacing: -0.01em;
+    color: #9197b3;
+    margin-right: 28px;
+  }
+  .sidebar_nav-button:hover {
+    background-color: #5932ea;
+    color: #fff;
+  }
+  .sidebar_icon {
+    margin-right: 16px;
+    margin-left: 13px;
+  }
+  .sidebar_icon-vector {
+    margin-right: 19px;
+    margin-left: auto;
+  }
+  .sidebar_user {
+    display: flex;
+
+    margin-top: 590px;
+    margin-left: 28px;
+  }
+  .sidebar_user-img {
+    width: 42px;
+    height: 42px;
+  }
+  .sidebar_user-name {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.01em;
+    margin: 0%;
+    color: #000000;
+  }
+  .sidebar_user-profession {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    margin: 0%;
+    letter-spacing: 0.01em;
+
+    color: #757575;
+  }
+  .user-profile_container {
+    margin-left: 12px;
+  }
+}

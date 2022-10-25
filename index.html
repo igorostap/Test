@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+      integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="sass/main.css" />
+    <title>Dashboard</title>
+  </head>
+  <body>
+    <div class="container">
+      <aside class="sidebar">
+        <a href="./index.html" class="logo">
+          <svg class="logo_icon" width="37" height="37">
+            <use href="./img/symbol-defs.svg#setting-1"></use>
+          </svg>
+          Dashboard <span class="logo_second">v.01</span></a
+        >
+        <div>
+          <ul>
+            <li class="sidebar_nav">
+              <button type="button" class="sidebar_nav-button">
+                <svg class="sidebar_icon" width="24" height="24">
+                  <use href="./img/symbol-defs.svg#key-square"></use>
+                </svg>
+                Dashboard
+                <svg class="sidebar_icon-vector" width="4" height="8">
+                  <use href="./img/symbol-defs.svg#Vector"></use>
+                </svg>
+              </button>
+            </li>
+            <li class="sidebar_nav">
+              <button type="button" class="sidebar_nav-button">
+                <svg class="sidebar_icon" width="24" height="24">
+                  <use href="./img/symbol-defs.svg#d-square-1"></use>
+                </svg>
+                Product
+                <svg class="sidebar_icon-vector" width="4" height="8">
+                  <use href="./img/symbol-defs.svg#Vector"></use>
+                </svg>
+              </button>
+            </li>
+            <li class="sidebar_nav">
+              <button
+                type="button"
+                class="sidebar_nav-button"
+                data-action="customers"
+              >
+                <svg class="sidebar_icon" width="24" height="24">
+                  <use href="./img/symbol-defs.svg#user-square-1"></use>
+                </svg>
+                Customers
+                <svg class="sidebar_icon-vector" width="4" height="8">
+                  <use href="./img/symbol-defs.svg#Vector"></use>
+                </svg>
+              </button>
+            </li>
+            <li class="sidebar_nav">
+              <button type="button" class="sidebar_nav-button">
+                <svg class="sidebar_icon" width="24" height="24">
+                  <use href="./img/symbol-defs.svg#wallet-money-2"></use>
+                </svg>
+                Income
+                <svg class="sidebar_icon-vector" width="4" height="8">
+                  <use href="./img/symbol-defs.svg#Vector"></use>
+                </svg>
+              </button>
+            </li>
+            <li class="sidebar_nav">
+              <button type="button" class="sidebar_nav-button">
+                <svg class="sidebar_icon" width="24" height="24">
+                  <use href="./img/symbol-defs.svg#discount-shape-1"></use>
+                </svg>
+                Promote
+                <svg class="sidebar_icon-vector" width="4" height="8">
+                  <use href="./img/symbol-defs.svg#Vector"></use>
+                </svg>
+              </button>
+            </li>
+            <li class="sidebar_nav">
+              <button type="button" class="sidebar_nav-button">
+                <svg class="sidebar_icon" width="24" height="24">
+                  <use href="./img/symbol-defs.svg#message-question-1"></use>
+                </svg>
+                Help
+                <svg class="sidebar_icon-vector" width="4" height="8">
+                  <use href="./img/symbol-defs.svg#Vector"></use>
+                </svg>
+              </button>
+            </li>
+          </ul>
+        </div>
+        <div class="sidebar_user">
+          <img
+            src="./img/Ellipse 8.png"
+            alt="Elano_Mng"
+            class="sidebar_user-img"
+          />
+          <div class="user-profile_container">
+            <h3 class="sidebar_user-name">Evano</h3>
+            <p class="sidebar_user-profession">Project Manager</p>
+          </div>
+        </div>
+      </aside>
+      <div class="main-container">
+        <img
+          class="img-customer"
+          src="./img/Hello Evano 👋🏼,.png"
+          alt="User"
+          width="176"
+          height="36"
+        />
+        <div class="customers"></div>
+      </div>
+    </div>
+    <script src="./js/contacts.js"></script>
+  </body>
+</html>
